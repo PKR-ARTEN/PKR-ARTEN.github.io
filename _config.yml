@@ -3,24 +3,25 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        	pretty
 
 # Setup
-title:            'ARTEN'
-tagline:          'Be Happy'
-description:      'Be Happy'
-url:              https://ARTEN-PKR.github.io
-baseurl:          /
+title:            	'ARTEN'
+tagline:          	'Be Happy'
+description:      	'Be Happy'
+url:              	https://ARTEN-PKR.github.io
+baseurl:          	/
 
 author:
-  name:           'ARTEN'
+  name:           	'ARTEN'
+  url:            	''
 
-paginate:         5
+paginate:         	5
 
 # Custom vars
-version:          1.0.0
+version:          	2.1.0
 
 github:				
-  repo:						https://github.com/PKR-ARTEN
+repo:               https://github.com/PKR-ARTEN
 
-remote_theme:			poole/hyde
+remote_theme:		poole/hyde
