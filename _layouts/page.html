@@ -4,12 +4,13 @@ layout: default
 
 <div class="page">
 	<h1 class="page-title">{{ page.title }}</h1>
-	{% assign pages_list = site.posts %}
+	{% assign pages_list = site.pages %}
 	{% for node in pages_list %}
 		{% if node.title != null %}
 			{% if node.layout == "post" %}
 				<!-- {% if post.category == page.title %} -->
 					<a href="{{ node.url }}">{{ node.title }}</a>
+				{% endif %}
 			{% endif %}
 		{% endif %}
 	{% endfor %}
