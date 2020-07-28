@@ -9,7 +9,7 @@ permalink:        	pretty
 title:            	'ARTEN'
 tagline:          	'A Jekyll theme'
 description:      	'Be Happy'
-url:              	'https://ARTEN-PKR.github.io'
+url:              	https://ARTEN-PKR.github.io
 baseurl:          	/
 
 author:
@@ -21,7 +21,7 @@ paginate:         	5
 # Custom vars
 version:          	2.1.0
 
-github:				''
-repo:               https://github.com/poole/hyde
+github:				
+repo:               https://github.com/PKR-ARTEN
 
 remote_theme:		poole/hyde
