@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            'ARTEN'
 tagline:          'A Jekyll theme'
 description:      'Be Happy'
-url:              'http://ARTEN-PKR.github.io'
+url:              'https://ARTEN-PKR.github.io'
 baseurl:          ''
 
 author:
