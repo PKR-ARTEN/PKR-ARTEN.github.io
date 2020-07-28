@@ -10,7 +10,7 @@ title:            	'ARTEN'
 tagline:          	'A Jekyll theme'
 description:      	'Be Happy'
 url:              	'https://ARTEN-PKR.github.io'
-baseurl:          	''
+baseurl:          	/
 
 author:
   name:           	'ARTEN'
