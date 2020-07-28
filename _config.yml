@@ -11,7 +11,7 @@ title:            ARTEN
 tagline:          'A Jekyll theme'
 description:      'Be Happy'
 url:              https://PKR-ARTEN.github.io
-baseurl:          /
+baseurl:          
 
 author:
   name:           'ARTEN'
