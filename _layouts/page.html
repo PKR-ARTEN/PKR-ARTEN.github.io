@@ -9,7 +9,7 @@ layout: default
 		{% if node.title != null %}
 			{% if node.layout == "post" %}
 				<!-- {% if post.category == page.title %} -->
-					<a href="{{ post.url }}">{{ post.title }}</a>
+					<a href="{{ node.url }}">{{ node.title }}</a>
 				{% endif %}
 			{% endif %}
 		{% endif %}
