@@ -3,26 +3,26 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        	pretty
 relative_permalinks: true
 
 # Setup
-title:            'ARTEN'
-tagline:          'A Jekyll theme'
-description:      'Be Happy'
-url:              'https://ARTEN-PKR.github.io'
-baseurl:          ''
+title:            	'ARTEN'
+tagline:          	'A Jekyll theme'
+description:      	'Be Happy'
+url:              	'https://ARTEN-PKR.github.io'
+baseurl:          	''
 
 author:
-  name:           'ARTEN'
-  url:            ''
+  name:           	'ARTEN'
+  url:            	''
 
-paginate:         5
+paginate:         	5
 
 # Custom vars
-version:          2.1.0
+version:          	2.1.0
 
-github:           ''
-  repo:           ''
+github:				''
+repo:               https://github.com/poole/hyde
 
-remote_theme : poole/hyde
+remote_theme:		poole/hyde
