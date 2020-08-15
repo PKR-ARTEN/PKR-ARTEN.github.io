@@ -105,5 +105,5 @@ $ gst-launch-1.0 ksvideosrc do-timestamp=TRUE ! video/x-raw,width=640,height=480
 
 ## 7 AWS kinesis sdk - cpp github
 
-	* 더 자세한 정보는 아래에서 확인. 빌드 도중의 에러 등은 issue에서 찾아보면 왠만하면 나온다.
-	<https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp>
+* 더 자세한 정보는 아래에서 확인. 빌드 도중의 에러 등은 issue에서 찾아보면 왠만하면 나온다.
+<https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp>
