@@ -15,7 +15,7 @@ category: AWS
 	2. powershell 입력  
 	3. 관리자 권한으로 열기 위해 crtl+shift+enter
 
-2. https://chocolatey.org/install 에서 설치 명령어를 복붙
+2. https://chocolatey.org/install 에서 설치 명령어를 복붙  
 ex) 
 ```bash
 $ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
