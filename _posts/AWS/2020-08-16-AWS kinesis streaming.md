@@ -3,12 +3,12 @@ layout: post
 title: AWS kinesis streaming
 category: AWS
 ---
-## 1. 설치 환경
+## 1 설치 환경
 
 1. windows 10 64bit
 
 
-## 2. chocolatey 설치
+## 2 chocolatey 설치
 
 1. powershell에서 진행  
 	1. window key + r  
@@ -22,7 +22,7 @@ $ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.
 ```
 
 
-## 3. kinesis에 필요한 패키지 설치
+## 3 kinesis에 필요한 패키지 설치
 
 1. 마찬가지로 powershell 관리지 권한으로 진행  
 2. nasm, perl, gstreamer 설치  
@@ -53,7 +53,7 @@ $ choco install pkgconfiglite
 path에서 pkgconfiglite의 pkg-config.exe 경로를 제일 상단으로 올린다.
 
 
-## 4. kinesis cpp sdk 다운로드
+## 4 kinesis cpp sdk 다운로드
 
 * 여기부터는 cmd에서 실행
 ```bash
@@ -61,7 +61,7 @@ $ git clone --recursive https://github.com/awslabs/amazon-kinesis-video-streams-
 ```
 
 
-## 5. kinesis cpp sdk build
+## 5 kinesis cpp sdk build
 
 1. build_windows.bat 수정
 	* .github 폴더의 build_windows.bat 파일 내에 `call "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Auxiliary\Build\vcvars64.bat"` 부분이 있을텐데,  
@@ -77,7 +77,7 @@ $ .github/build_windows.bat
 	* 이후 약 30분 간 빌드가 완료되기를 기다린다.
 
 
-## 6. 샘플 실행
+## 6 샘플 실행
 
 1. kinesis 환경변수 설정
 	* kinesis sdk readme에도 명시되어 있지만, 반드시 루트 디렉토리에서 실행할 것.
@@ -103,7 +103,7 @@ $ gst-launch-1.0 ksvideosrc do-timestamp=TRUE ! video/x-raw,width=640,height=480
 	<https://github.com/aws-samples/amazon-kinesis-video-streams-media-viewer>
 
 
-## 7. AWS kinesis sdk - cpp github
+## 7 AWS kinesis sdk - cpp github
 
 	* 더 자세한 정보는 아래에서 확인. 빌드 도중의 에러 등은 issue에서 찾아보면 왠만하면 나온다.
 	<https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp>
