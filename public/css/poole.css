@@ -177,17 +177,16 @@ pre code {
   font-size: 100%;
   color: inherit;
   background-color: transparent;
+  overflow:auto !important;
 }
 
 /* Pygments via Jekyll */
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
-  overflow: auto !important;
 }
 .highlight pre {
   margin-bottom: 0;
-  overflow: auto !important;
 }
 
 /* Gist via GitHub Pages */
